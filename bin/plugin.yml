@@ -1,0 +1,8 @@
+name: GalaxyTokens
+version: 1.0
+author: darkwinged
+main: me.darkwinged.Tokens.Main
+commands:
+  token: 
+    aliases:
+      - tokens

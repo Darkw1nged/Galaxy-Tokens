@@ -1,0 +1,44 @@
+SQL:
+  Host: "localhost"
+  Port: 3306
+  Username: "root"
+  Password: "password"
+  Database: "minecraft"
+  
+Limit Tokens:
+  Tier 1: 100
+  Tier 2: 250
+  Tier 3: 350
+  Tier 4: 500
+  Tier 5: 750
+  
+Mobs:
+  Chance:
+    SKELETON: 5
+    ZOMBIE: 5
+    BLAZE: 5
+    CREEPER: 8
+    ENDERMAN: 8
+    IRON_GOLEM: 50
+  Amount:
+    SKELETON: 1
+    ZOMBIE: 1
+    BLAZE: 5
+    CREEPER: 3
+    ENDERMAN: 5
+    IRON_GOLEM: 10
+  Hologram:
+    SKELETON: "&6+1"
+    ZOMBIE: "&6+1"
+    BLAZE: "&6+5"
+    CREEPER: "&6+3"
+    ENDERMAN: "&6+5"
+    IRON_GOLEM: "&6+10"
+  Sound:
+    sound: VILLAGER_YES
+    pitch: 1
+    Volume: 1
+    
+Messages:
+  Balance: "&eYour current balance is %balance%"
+  Balance_Other: "&e%player%'s current balance is %balance%"
